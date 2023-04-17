@@ -66,22 +66,30 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
     - [Python standard libraries and scripts](05_python/python_rest.ipynb)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :green_book: **Assignment B**: start
 - `(06)` Mar. 13th:
-    - [Data manipulation:NumPy](06_np/np.ipynb)&nbsp;&nbsp;[[Exercises](06_np/np_exercises.ipynb)]&nbsp;&nbsp;[[Solutions](06_np/np_exercises_solutions.ipynb)] 
+    - [Data manipulation:NumPy](06_np/np.ipynb)&nbsp;&nbsp;[[Exercises](06_np/np_exercises.ipynb)] 
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_book: **Assignment A**: primary deadline, 17:00
 - `(07)` Mar. 20th:
     - [Data manipulation:pandas](07_pd/pd.ipynb)&nbsp;&nbsp;[[Exercises](07_pd/pd_exercises.ipynb)]
 - `(08)` Apr. 3rd:
-    - Data visualisation
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :green_book: **Assignment B**: primary deadline, 17:00
+    - [Data visualisation](08_dv/dv.ipynb)&nbsp;&nbsp;[[Exercises](08_dv/dv_exercises.ipynb)]
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :green_book: **Assignment B**: primary deadline, 23:59
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :blue_book: **Assignment C**: start
 - `(09)` Apr. 17th:
-    - Relational databases and SQL language
+    - Relational databases:
+        - [Database, database models and DataBase Management Systems](09_sql/db_database.md)
+        - [Database related terms](09_sql/db_related.md)
+        - [Relation/table](09_sql/db_table.md)
+        - [Keys, primary keys, prime attributes](09_sql/db_keys.md)
+    - SQL language:
+        - [Downloading and connecting to the example database](09_sql/connect_to_database.ipynb)
+        - [Querying and selecting data](09_sql/SELECT_basic.ipynb) (`SELECT`, `LIMIT`, `AS`, `ORDER`, `DISTINCT`, `WHERE`, `IN`, `BETWEEN`, `LIKE`) [[Exercises](09_sql/SELECT_basic.exercises.ipynb)]
+        - [Grouping and summarising](09_sql//SELECT_groups.ipynb) (`GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP_CONCAT`) [[Exercises](09_sql/SELECT_groups.exercises.ipynb)]
 - `(10)` Apr. 24th
     - Relational databases and SQL language
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :books: **Group Assignment**: start
 - `(11)` May 1st:
     - Python SQL Toolkit and Object Relational Mapper (SQLAlchemy)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :blue_book: **Assignment C**: primary deadline, 17:00
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :blue_book: **Assignment C**: primary deadline, 23:59
 - `(12)` May 8th:
     - General Q&A and group assignment Q&A, programming practice
 - `(13)` May 15th:
@@ -89,13 +97,13 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
 - `(14)` May 22nd:
     - FAIR & data stewardship
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pencil: **Data stewardship quiz**: start
-- `(--)` May 29th:
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :books: **Group Assignment**: deadline (17:00)
+- `(--)` June 1st:
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :books: **Group Assignment**: deadline, 23:59
 - `(--)` June 5th
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :office: **Exam**
 - `(--)` June 12th
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_book: :green_book: :blue_book: **Assignments A, B, C**: secondary deadline, 17:00
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pencil: **Data stewardship quiz**: deadline, 17:00
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_book: :green_book: :blue_book: **Assignments A, B, C**: secondary deadline, 23:59
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pencil: **Data stewardship quiz**: deadline, 23:59
 - `(--)` June 26th
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :office: **Retake**
 
