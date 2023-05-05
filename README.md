@@ -29,16 +29,18 @@ Finally, relevance of data stewardship and [FAIR principles](https://en.wikipedi
 
 ## Course Objectives
 
-After the course you will be able to:
+During the course you will practice writing [Python](https://www.python.org/) code. After the course you will be able to:
 
-- write and execute a Python program or Python-notebook script/report
-- read/write data stored in standard tabular/hierarchical formats
-- perform data manipulation operations (table filtering, merging, wide/long conversion)
-- visualise histograms, scatter plots, etc.
-- execute several machine learning algorithms
-- explain the relevance of data stewardship for scientific research
-- properly handle research data during the complete data life cycle (planning research, collecting data, processing & analyzing data, preserving data, giving access to data, re-using data)
-- apply the FAIR principles (Findable, Accessible, Interoperable, Reusable)
+- use Python collections (`list`, `tuple`, `set`, `dict`)
+- use Python flow control statements (`if`, `for`, `while`, exceptions), context managers (`with`) and define user functions
+- understand Python classes (instance variables, methods, inheritance)
+- use Python standard libraries (reading/writing files in different formats; `math`, `statistics`, `random`)
+- use common data science libraries ([NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/))
+- understand relational databases and use [SQL](https://www.w3schools.com/sql/) to create, query, update a database
+- understand basics of [SQLAlchemy](https://www.sqlalchemy.org/) for Python object-oriented database access
+- understand how to execute several machine learning algorithms
+- use [git](https://git-scm.com/) and [GitHub](https://github.com/) for individual and collaborative code development
+- explain the relevance of data stewardship and [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data) for scientific research
 
 ## Time/location
 
@@ -66,10 +68,10 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
     - [Python standard libraries and scripts](05_python/python_rest.ipynb)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :green_book: **Assignment B**: start
 - `(06)` Mar. 13th:
-    - [Data manipulation:NumPy](06_np/np.ipynb)&nbsp;&nbsp;[[Exercises](06_np/np_exercises.ipynb)] 
+    - [Data manipulation:NumPy](06_np/np.ipynb)&nbsp;&nbsp;[[Exercises](06_np/np_exercises.ipynb)]&nbsp;&nbsp;[[Solutions](06_np/np_exercises_solutions.ipynb)] 
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_book: **Assignment A**: primary deadline, 17:00
 - `(07)` Mar. 20th:
-    - [Data manipulation:pandas](07_pd/pd.ipynb)&nbsp;&nbsp;[[Exercises](07_pd/pd_exercises.ipynb)]
+    - [Data manipulation:pandas](07_pd/pd.ipynb)&nbsp;&nbsp;[[Exercises](07_pd/pd_exercises.ipynb)]&nbsp;&nbsp;[[Solutions](07_pd/pd_exercises_solutions.ipynb)]
 - `(08)` Apr. 3rd:
     - [Data visualisation](08_dv/dv.ipynb)&nbsp;&nbsp;[[Exercises](08_dv/dv_exercises.ipynb)]
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :green_book: **Assignment B**: primary deadline, 23:59
@@ -85,12 +87,23 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
         - [Querying and selecting data](09_sql/SELECT_basic.ipynb) (`SELECT`, `LIMIT`, `AS`, `ORDER`, `DISTINCT`, `WHERE`, `IN`, `BETWEEN`, `LIKE`) [[Exercises](09_sql/SELECT_basic.exercises.ipynb)]
         - [Grouping and summarising](09_sql//SELECT_groups.ipynb) (`GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP_CONCAT`) [[Exercises](09_sql/SELECT_groups.exercises.ipynb)]
 - `(10)` Apr. 24th
-    - Relational databases and SQL language
+    - Relational databases:
+        - [Database design anomalies](10_sql/db_design_anomalies.md)
+        - [Database normalisation](10_sql/db_normalisation.md)
+        - [Types of relationships](10_sql/db_relationship_types.md)
+        - [Column data types](10_sql/db_data_types.md)
+        - [Advantages/disadvantages of relational databases](10_sql/db_reldb_adv_disadv.md)
+    - SQL language:
+        - [Modification statements](10_sql/UPDATE_INSERT_DELETE.ipynb) (`UPDATE`, `INSERT`, `DELETE`) [[Exercises](10_sql/UPDATE_INSERT_DELETE.exercises.ipynb)]
+        - [Data definition language](10_sql/CREATE_TABLE.ipynb) (`CREATE TABLE`, `DROP TABLE`)
+        - [Joining tables 1](10_sql/JOIN_basic.ipynb) (`INNER JOIN`, `LEFT JOIN`, `CREATE TEMP TABLE`) [[Exercises](10_sql/JOIN_basic.exercises.ipynb)]
+        - [Joining tables 2](10_sql/JOIN_adv.ipynb) (`UNION`, `EXCEPT`, `INTERSECT`, self joins, `CROSS JOIN`, subqueries, `EXIST`) [[Exercises](10_sql/JOIN_adv.exercises.ipynb)]
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :books: **Group Assignment**: start
 - `(11)` May 1st:
-    - Python SQL Toolkit and Object Relational Mapper (SQLAlchemy)
+    - [Python SQL Toolkit and Object Relational Mapper (SQLAlchemy)](11_sql/orm_practice.ipynb)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :blue_book: **Assignment C**: primary deadline, 23:59
 - `(12)` May 8th:
+    - More details on git and GitHub
     - General Q&A and group assignment Q&A, programming practice
 - `(13)` May 15th:
     - Machine learning libraries (examples)
