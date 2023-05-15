@@ -31,16 +31,16 @@ Finally, relevance of data stewardship and [FAIR principles](https://en.wikipedi
 
 During the course you will practice writing [Python](https://www.python.org/) code. After the course you will be able to:
 
-- use Python collections (`list`, `tuple`, `set`, `dict`)
-- use Python flow control statements (`if`, `for`, `while`, exceptions), context managers (`with`) and define user functions
-- understand Python classes (instance variables, methods, inheritance)
-- use Python standard libraries (reading/writing files in different formats; `math`, `statistics`, `random`)
-- use common data science libraries ([NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/))
-- understand relational databases and use [SQL](https://www.w3schools.com/sql/) to create, query, update a database
-- understand basics of [SQLAlchemy](https://www.sqlalchemy.org/) for Python object-oriented database access
-- understand how to execute several machine learning algorithms
-- use [git](https://git-scm.com/) and [GitHub](https://github.com/) for individual and collaborative code development
-- explain the relevance of data stewardship and [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data) for scientific research
+- :writing_hand: use Python collections (`list`, `tuple`, `set`, `dict`)
+- :writing_hand: use Python flow control statements (`if`, `for`, `while`, exceptions), context managers (`with`) and define user functions
+- :no_entry_sign: understand Python classes (instance variables, methods, inheritance)
+- :writing_hand: use Python standard libraries (reading/writing files in different formats; `math`, `statistics`, `random`)
+- :writing_hand: use common data science libraries ([NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/))
+- :no_entry_sign: understand relational databases and use [SQL](https://www.w3schools.com/sql/) to create, query, update a database
+- :no_entry_sign: understand basics of [SQLAlchemy](https://www.sqlalchemy.org/) for Python object-oriented database access
+- :writing_hand: understand how to execute several machine learning algorithms
+- :no_entry_sign: use [git](https://git-scm.com/) and [GitHub](https://github.com/) for individual and collaborative code development
+- :no_entry_sign: explain the relevance of data stewardship and [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data) for scientific research
 
 ## Time/location
 
@@ -103,10 +103,12 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
     - [Python SQL Toolkit and Object Relational Mapper (SQLAlchemy)](11_sql/orm_practice.ipynb)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :blue_book: **Assignment C**: primary deadline, 23:59
 - `(12)` May 8th:
-    - More details on git and GitHub
+    - [Git branching and merging](12_git/git_branching_merging.md)
     - General Q&A and group assignment Q&A, programming practice
 - `(13)` May 15th:
     - Machine learning libraries (examples)
+        - [scikit-learn](13_ml/sklearn.ipynb)
+        - [Keras](13_ml/keras.ipynb)
 - `(14)` May 22nd:
     - FAIR & data stewardship
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :pencil: **Data stewardship quiz**: start
@@ -140,6 +142,8 @@ Check the **Essentials for Data Science** course (`4433EDASCY`) at https://roost
     - The grade range is 1-10, rounded to 0.2 steps.
     - To pass the course, the exam/retake grade must be greater than 5.5.
     - The exam/retake grade has weight=4 in the final grade.
+    - The exam will cover the course objectives marked with :writing_hand:.
+    - The exam will not cover the course objectives marked with :no_entry_sign: - these objectives are evaluated in the group assignment and the quiz.
 - Final grade:
     - The final grade is calculated as a weighted mean of the component grades.
     - To pass the course, the final grade needs to be greater or equal 6.0.
